@@ -1,16 +1,7 @@
 ﻿using DesktopUI.Library;
-using DesktopUI.Library.Data;
 using DesktopUI.Library.Models;
 using DesktopUI.Library.Workers;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DesktopUI

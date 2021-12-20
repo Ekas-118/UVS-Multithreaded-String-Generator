@@ -1,11 +1,6 @@
-﻿using DesktopUI.Library.Data;
-using DesktopUI.Library.Models;
-using DesktopUI.Library.Workers;
+﻿using DesktopUI.Library.Workers;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
