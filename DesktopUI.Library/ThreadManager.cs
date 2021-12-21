@@ -48,6 +48,7 @@ namespace DesktopUI.Library
                     }
                 });
 
+                thread.IsBackground = true;
                 thread.Name = i.ToString();
 
                 _threads.Add(thread);

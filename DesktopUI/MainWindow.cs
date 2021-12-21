@@ -23,8 +23,6 @@ namespace DesktopUI
             threadNumberNumericUpDown.Minimum = _minThreadCount;
             threadNumberNumericUpDown.Maximum = _maxThreadCount;
 
-            FormClosing += Stop;
-
             _dataGenerator = dataGenerator;
             _dataGenerationWorkerFactory = dataGenerationWorkerFactory;
             _dataGenerator.DataGenerated += AddDataToListView;
