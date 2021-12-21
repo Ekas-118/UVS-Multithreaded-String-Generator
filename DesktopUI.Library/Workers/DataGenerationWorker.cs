@@ -2,6 +2,7 @@
 using DesktopUI.Library.Models;
 using System;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace DesktopUI.Library.Workers
 {
@@ -43,7 +44,7 @@ namespace DesktopUI.Library.Workers
 
             GeneratedDataModel data = _dataGenerator.GenerateData();
 
-            _repository.AddDataModel(data);
+            Task.Run(() => _repository.AddDataModel(data));
         }
     }
 }
